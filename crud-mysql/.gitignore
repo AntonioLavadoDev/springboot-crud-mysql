@@ -1,0 +1,50 @@
+### Archivos generados por compilación ###
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Maven ###
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+### Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Visual Studio Code ###
+.vscode/
+
+### Logs ###
+*.log
+
+### Archivos temporales del sistema ###
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+### Archivos de configuración locales ###
+/application-local.properties
+/local.env
+
