@@ -10,7 +10,7 @@ import com.crudmysql.crud_mysql.model.Product;
 import com.crudmysql.crud_mysql.repository.ProductRepository;
 
 @Service
-public class ProductService {
+public class ProductService implements IProductService {
 
     //Si no inyectamos el repositorio no podremos hacer uso de los métodos de JPA
     @Autowired
